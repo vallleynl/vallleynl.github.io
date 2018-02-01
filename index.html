@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Creator: Marc Dalhuisen" content="Communication Multimedia Design class 209 2018">
+    <title>DFDS 99 Stories</title>
+    <link rel="stylesheet" href="styles/mainStyle.css">
+</head>
+
+<body>
+    <header>
+        <!-- section in header to contain and center it on max width -->
+        <section>
+            <h1><a href=""><img src="src/dfdslogo.svg" alt="Logo DFDS"></a></h1>
+            <nav>
+                <ul>
+                    <li><a href=""><h2>points</h2><img src="src/M_Points.png" alt="Navigation points"></a></li>
+                    <li><a href="pages/famine.html"><h2>bookmark</h2><img src="src/M_Bookmark.png" alt="Navigation bookmark"></a></li>
+                    <li><a href="pages/profile.html"><h2>profile</h2><img src="src/M_Profile.png" alt="Navigation profile"></a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <!-- The bundle filter -->
+    <form id="filterTab" class="filterTabMinimized">
+        <img src="src/filter.png" alt="filtericon" id="filterIMG">
+
+        <fieldset>
+            <legend>Reading time</legend>
+            <div class="slidecontainer">
+                <p>Maximum: <span id="sliderOne"></span></p>
+                <input type="range" min="10" max="500" value="250" class="slider" id="myRange">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Subjects</legend>
+
+            <label for="sCrime">Crime<input type="checkbox" name="crime" value="crime" id="sCrime"></label>
+            <label for="sLove">Love<input type="checkbox" name="love" value="love" id="sLove"></label>
+            <label for="sWar">War<input type="checkbox" name="war" value="war" id="sWar"></label>
+            <label for="sScifi">Sci-Fi<input type="checkbox" name="scifi" value="scifi" id="sScifi"></label>
+            <label for="sFiction">Fiction<input type="checkbox" name="fiction" value="fiction" id="sFiction"></label>
+            <label for="sNonFiction">Non-ficion<input type="checkbox" name="nonFiction" value="nonFiction" id="sNonFiction"></label>
+            <label for="sPoerty">Poerty<input type="checkbox" name="poerty" value="poerty" id="sPoerty"></label>
+            <label for="sHistory">History<input type="checkbox" name="history" value="history" id="sHistory"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Age filter</legend>
+
+            <label for="ageFilter">13+<input type="checkbox" name="ageFilter" value="ageFilter" id="ageFilter"></label>
+
+        </fieldset>
+
+        <fieldset>
+            <input type="button" value="Apply" id="filterButtonApply">
+            <input type="reset" value="Reset">
+            <input type="button" value="Cancel" id="filterButtonCancel">
+        </fieldset>
+        <div id="filterZoneout" class="hidden"></div>
+    </form>
+
+    <section>
+        <!-- grid container -->
+        <article class="item finished">
+            <div>
+                <a href="pages/haiku.html">
+                    <div>
+                        <h3>Haiku</h3></div>
+                </a>
+
+            </div>
+            <h4>01</h4>
+            <ol>
+                <li><img src="src/Closed_LockP_white.png" alt="icon locked"></li>
+                <li><img src="src/Open_Lock_orange.png" alt="icon lock open orange"></li>
+                <li>6/7</li>
+                <li>100%</li>
+            </ol>
+            <img src="src/preview2.jpg" alt="Background picture bundle">
+        </article>
+        <article class="item locked">
+            <div>
+                <div>
+                    <h3>Sonnet but than longer</h3></div>
+            </div>
+            <h4>02</h4>
+            <ol>
+                <li><img src="src/Closed_LockP_white.png" alt="icon locked"></li>
+                <li><img src="src/Open_Lock_orange.png" alt="icon locked orange"></li>
+                <li>6/7</li>
+                <li>100%</li>
+            </ol>
+            <img src="src/Shaiku.jpg" alt="Background picture bundle">
+
+
+        </article>
+        <article class="item unlocked">
+            <div>
+                <div>
+                    <h3>Dialog</h3></div>
+            </div>
+            <h4>03</h4>
+            <ol>
+                <li><img src="src/Closed_LockP_white.png" alt="icon locked"></li>
+                <li><img src="src/Open_Lock_orange.png" alt="icon lock open orange"></li>
+                <li>6/7</li>
+                <li>100%</li>
+            </ol>
+            <img src="src/preview1.jpg" alt="Background picture bundle">
+
+        </article>
+        <article class="item inProgress">
+            <div>
+                <div>
+                    <h3>iPhone</h3></div>
+            </div>
+            <h4>04</h4>
+            <ol>
+                <li><img src="src/Closed_LockP_white.png" alt="icon locked"></li>
+                <li><img src="src/Open_Lock_orange.png" alt="icon lock open orange"></li>
+                <li>6/7</li>
+                <li>100%</li>
+            </ol>
+            <img src="src/Sfamine.jpg" alt="Background picture bundle">
+
+        </article>
+        <article class="item finished">
+            <div>
+                <div>
+                    <h3>Famine</h3></div>
+            </div>
+            <h4>05</h4>
+            <ol>
+                <li><img src="src/Closed_LockP_white.png" alt="icon locked"></li>
+                <li><img src="src/Open_Lock_orange.png" alt="icon lock open orange"></li>
+                <li>6/7</li>
+                <li>100%</li>
+            </ol>
+            <img src="src/casino_1.jpg" alt="Background picture bundle">
+
+        </article>
+        <article class="item locked">
+            <div>
+                <div>
+                    <h3>Dream</h3></div>
+            </div>
+            <h4>06</h4>
+            <ol>
+                <li><img src="src/Closed_LockP_white.png" alt="icon locked"></li>
+                <li><img src="src/Open_Lock_orange.png" alt="icon lock open orange"></li>
+                <li>6/7</li>
+                <li>100%</li>
+            </ol>
+            <img src="src/Sfamine.jpg" alt="Background picture bundle">
+
+        </article>
+        <article class="item unlocked">
+            <div>
+                <div>
+                    <h3>Surprised</h3></div>
+            </div>
+            <h4>07</h4>
+            <ol>
+                <li><img src="src/Closed_LockP_white.png" alt="icon locked"></li>
+                <li><img src="src/Open_Lock_orange.png" alt="icon lock open orange"></li>
+                <li>6/7</li>
+                <li>100%</li>
+            </ol>
+            <img src="src/robot.png" alt="Background picture bundle">
+
+        </article>
+        <article class="item inProgress">
+            <div>
+                <div>
+                    <h3>In love</h3></div>
+            </div>
+            <h4>08</h4>
+            <ol>
+                <li><img src="src/Closed_LockP_white.png" alt="icon locked"></li>
+                <li><img src="src/Open_Lock_orange.png" alt="icon lock open orange"></li>
+                <li>6/7</li>
+                <li>100%</li>
+            </ol>
+            <img src="src/preview2.jpg" alt="Background picture bundle">
+
+        </article>
+        <article class="item finished">
+            <div>
+                <div>
+                    <h3>Twitter</h3></div>
+            </div>
+            <h4>09</h4>
+            <ol>
+                <li><img src="src/Closed_LockP_white.png" alt="icon locked"></li>
+                <li><img src="src/Open_Lock_orange.png" alt="icon lock open orange"></li>
+                <li>6/7</li>
+                <li>100%</li>
+            </ol>
+            <img src="src/robot.png" alt="Background picture bundle">
+
+        </article>
+        <article class="item locked">
+            <div>
+                <div>
+                    <h3>Chimney</h3></div>
+            </div>
+            <h4>10</h4>
+            <ol>
+                <li><img src="src/Closed_LockP_white.png" alt="icon locked"></li>
+                <li><img src="src/Open_Lock_orange.png" alt="icon lock open orange"></li>
+                <li>6/7</li>
+                <li>100%</li>
+            </ol>
+            <img src="src/casino_1.jpg" alt="Background picture bundle">
+
+        </article>
+        <article class="item unlocked">
+            <div>
+                <div>
+                    <h3>Job Chohen</h3></div>
+            </div>
+            <h4>11</h4>
+            <ol>
+                <li><img src="src/Closed_LockP_white.png" alt="icon locked"></li>
+                <li><img src="src/Open_Lock_orange.png" alt="icon lock open orange"></li>
+                <li>6/7</li>
+                <li>100%</li>
+            </ol>
+            <img src="src/casino_1.jpg" alt="Background picture bundle">
+
+        </article>
+        <article class="item inProgress">
+            <div>
+                <div>
+                    <h3>Paranoia</h3></div>
+            </div>
+            <h4>12</h4>
+            <ol>
+                <li><img src="src/Closed_LockP_white.png" alt="icon locked"></li>
+                <li><img src="src/Open_Lock_orange.png" alt="icon lock open orange"></li>
+                <li>6/7</li>
+                <li>100%</li>
+            </ol>
+            <img src="src/casino_1.jpg" alt="Background picture bundle">
+
+        </article>
+        <article class="item finished">
+            <div>
+                <div>
+                    <h3>Return</h3></div>
+            </div>
+            <h4>13</h4>
+            <ol>
+                <li><img src="src/Closed_LockP_white.png" alt="icon locked"></li>
+                <li><img src="src/Open_Lock_orange.png" alt="icon lock open orange"></li>
+                <li>6/7</li>
+                <li>100%</li>
+            </ol>
+            <img src="src/casino_1.jpg" alt="Background picture bundle">
+
+        </article>
+        <article class="item locked">
+            <div>
+                <div>
+                    <h3>Guldens</h3></div>
+            </div>
+            <h4>14</h4>
+            <ol>
+                <li><img src="src/Closed_LockP_white.png" alt="icon locked"></li>
+                <li><img src="src/Open_Lock_orange.png" alt="icon lock open orange"></li>
+                <li>6/7</li>
+                <li>100%</li>
+            </ol>
+            <img src="src/casino_1.jpg" alt="Background picture bundle">
+
+        </article>
+        <article class="item unlocked">
+            <div>
+                <div>
+                    <h3>Birthday</h3></div>
+            </div>
+            <h4>15</h4>
+            <ol>
+                <li><img src="src/Closed_LockP_white.png" alt="icon locked"></li>
+                <li><img src="src/Open_Lock_orange.png" alt="icon lock open orange"></li>
+                <li>6/7</li>
+                <li>100%</li>
+            </ol>
+            <img src="src/casino_1.jpg" alt="Background picture bundle">
+
+        </article>
+        <article class="item inProgress">
+            <div>
+                <div>
+                    <h3>Babies</h3></div>
+            </div>
+            <h4>16</h4>
+            <ol>
+                <li><img src="src/Closed_LockP_white.png" alt="icon locked"></li>
+                <li><img src="src/Open_Lock_orange.png" alt="icon lock open orange"></li>
+                <li>6/7</li>
+                <li>100%</li>
+            </ol>
+            <img src="src/robot.png" alt="Background picture bundle">
+
+        </article>
+
+    </section>
+    <!--
+    FORMS
+    -->
+    <!-- LOGIN -->
+    <form id="loginForm" action="" class="hidden">
+        <fieldset id="enterMail">
+            <legend>Your email</legend>
+            <input name="email" type="email" placeholder="Your email address" id="loginMail" required autofocus>
+        </fieldset>
+
+        <fieldset id="enterPassword" class="hidden">
+            <legend>Password:</legend>
+            <input name="password" type="password" placeholder="Password" pattern=".{6,}" required>
+            <input id="loginRemember" type="checkbox" name="loginRemember" value="rememberMe">
+            <label for="loginRemember">remember me</label>
+            <a href="">forgot password</a>
+            <input name="login" type="submit" value="Login">
+        </fieldset>
+        <!-- HTML5 doctor gebruikt hieronder geen button -->
+        <input name="check" type="submit" value="check" id="checkLogin">
+    </form>
+
+    <!-- REGISTRATION -->
+    <form id="registerForm" action="" class="hidden">
+        <fieldset id="personalia">
+            <legend>Personalia:</legend>
+            <fieldset id="registerName">
+
+                <label for="firstName">First name:</label><input type="text" name="firstName" pattern=".{3,}" required autofocus>
+                <label for="surname">Surname:</label><input type="text" id="surname" pattern=".{3,}" required>
+            </fieldset>
+            <fieldset id="registerAge">
+                <label>Age:</label>
+                <input type="date" name="bday" min="1900-01-01" max="2018-01-23" required>
+            </fieldset>
+            <fieldset id="registerCountry">
+                <label>Country:</label>
+                <select name="country" required>
+                    <option value="">lease select below</option>
+                    <option value="Germany" >Deutschland</option>
+                    <option value="Greatbritiain" >Great Britian</option>
+                    <option value="Netherlands" >Nederland</option>
+                    <option value="Denmark" >Danmark</option>
+                    <option value="Finland" >Suomi</option>
+                    <option value="Sweden" >Sverige</option>
+            </select>
+            </fieldset>
+            <fieldset id="registerGender">
+
+                <label>Gender</label>
+                <div>
+                    <input type="radio" name="gender" id="male" value="rememberMe" required>
+                    <label for="male">male</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="female" value="rememberMe">
+                    <label for="female">female</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="other" value="rememberMe">
+                    <label for="other">other</label>
+                </div>
+            </fieldset>
+
+        </fieldset>
+        <!-- acccount -->
+        <fieldset id="createAccount">
+            <legend>Account:</legend>
+            <label for="">Mail</label>
+            <input name="email" type="email" placeholder="Your email address" required>
+
+            <legend>Password for new account</legend>
+            <input name="password" type="password" placeholder="6 digits, a combination of numbers and letters" pattern=".{6,}" required>
+            <input name="password" type="password" placeholder="6 digits, a combination of numbers and letters" pattern=".{6,}" required>
+            <label for="registerRemember">remember me<input id="registerRemember" type="checkbox" name="registerRemember" value="rememberMe"></label>
+
+        </fieldset>
+
+
+
+        <fieldset id="completeRegistration">
+            <input name="finish" type="submit" value="finish">
+        </fieldset>
+    </form>
+    <div id="zoneOut" class="hidden"></div>
+
+    <footer>
+        <ul>
+            <li><a href="">about 99 Stories</a></li>
+            <li> <a href="https://www.dfdsseaways.co.uk/" target="_blank">DFDS website</a></li>
+            <li id="registerMe"> register</li>
+            <li id="logMeIn"> login</li>
+        </ul>
+        <img src="src/dfdsboat.png" alt="Icon dfds cruiseship">
+        <div>
+            <!-- 1px line -->
+        </div>
+    </footer>
+    <div>
+        <!--bgFooter-->
+    </div>
+
+</body>
+<script src="js/grid.js"></script>
+
+</html>
