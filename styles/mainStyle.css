@@ -734,7 +734,7 @@ input[type=submit]:hover {
 
 /*
 - - - - - - - - - - - - - - - - - - - -
-06 FILTERBUTTON
+07 FILTERBUTTON
 - - - - - - - - - - - - - - - - - - - -
 */
 
@@ -893,7 +893,7 @@ body #filterTab>#filterZoneout {
 
 /*
  - - - - - - - - - - - - - - - - - - - -
-03 STORY - FAMINE
+08 STORY - FAMINE
  - - - - - - - - - - - - - - - - - - - -
 */
 
@@ -1038,7 +1038,7 @@ body>main#storyFamine>img {
 
 /*
  - - - - - - - - - - - - - - - - - - - -
-03 STORY - HAIKU
+09 STORY - HAIKU
 code used for cratchcard: https://codepen.io/dudleystorey/pen/yJQxLX
  - - - - - - - - - - - - - - - - - - - -
 */
@@ -1072,7 +1072,7 @@ body>main#storyHaiku>h1 {
 
 /*
  - - - - - - - - - - - - - - - - - - - -
-03 STORY - DIALOG
+10 STORY - DIALOG
  - - - - - - - - - - - - - - - - - - - -
 */
 
@@ -1140,7 +1140,7 @@ main#storyDialog * {
 
 /*
  - - - - - - - - - - - - - - - - - - - -
-03 STORY PAGE | footer
+11 STORY PAGE | footer
  - - - - - - - - - - - - - - - - - - - -
 */
 
@@ -1217,7 +1217,7 @@ body>footer#storyFooter>div:nth-child(3):hover h3:first-of-type {
 
 /*
  - - - - - - - - - - - - - - - - - - - -
-07 INTIAL SETUP GRID OBJECTS
+12 INTIAL SETUP GRID OBJECTS
  - - - - - - - - - - - - - - - - - - - -
  */
 
@@ -1287,7 +1287,7 @@ body>footer#storyFooter>div:nth-child(3):hover h3:first-of-type {
     }
     /*
      - - - - - - - - - - - - - - - - - - - -
-    08POST GRID OBJECT SIZING 960+px
+    13 POST GRID OBJECT SIZING 960+px
      - - - - - - - - - - - - - - - - - - - -
      */
     @media screen and (min-width:60em) {
