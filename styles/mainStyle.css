@@ -751,6 +751,7 @@ body>form#filterTab {
     padding: 2em 2.5em;
     box-sizing: border-box;
     color: white;
+    overflow: scroll;
 }
 
 body>form#filterTab:after {
